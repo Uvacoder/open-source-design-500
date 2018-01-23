@@ -312,7 +312,7 @@ class OpenSourceDesign500List {
         console.log("Open Source Design 500");
         console.log("~~~~~~~~~~~~~~~~~~~~~~");
 
-        for (let i = 0; i < 499; i++) {
+        for (let i = 0; i < 500; i++) {
             if (this.repositories[i]) {
                 console.log(`${i + 1}. ${this.repositories[i]["name"]} ・${this.repositories[i]["stars"]} stars`);
             }
